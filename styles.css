@@ -59,13 +59,41 @@ img {
 
 h1,
 h3,
+h4,
 h5 {
   font-family: "Borel", cursive;
   color: darkgoldenrod;
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: space-evenly;
+  padding: 20px;
+  flex: 1;
+}
+
+.shecodes {
+  display: flex;
+  flex-direction: space-evenly;
+  padding: 20px;
+  flex: 1;
+  background: lightgrey;
+  border-color: darkolivegreen;
+  border-radius: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: space-between;
+  padding: 20px;
+  flex: 1;
+  background: lightgrey;
+  border-color: darkolivegreen;
+  border-radius: 20px;
+}
+
 p {
-  display: ;
+  display:;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   color: darkolivegreen;
   text-align: left;
