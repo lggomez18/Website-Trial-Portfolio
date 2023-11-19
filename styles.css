@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: whitesmoke;
+}
+
+header {
+  position: fixed;
+  top: 10;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: darkolivegreen;
+}
+
+button a {
+  text-decoration: none;
+}
+
+button {
+  display: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: darkgoldenrod;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+
+button:hover {
+  color: darkolivegreen;
+}
+
+img {
+  width: 40%;
+}
+
+h1,
+h3,
+h5 {
+  font-family: "Borel", cursive;
+  color: darkgoldenrod;
+}
+
+p {
+  display: ;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  color: darkolivegreen;
+  text-align: left;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  margin: 50px;
+  flex: 1;
+}
