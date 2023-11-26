@@ -1,25 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  background: whitesmoke;
+:root {
+  --primary-color: whitesmoke;
+  --secondary-color: darkgoldenrod;
+  --third-color: darkolivegreen;
 }
 
-header {
-  position: fixed;
-  top: 10;
-  left: 0;
-  width: 100%;
-  padding: 20px 100px;
-  background: whitesmoke;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
+
+body {
+  background: var(--primary-color);
+  margin:0;
 }
-.navbar ul {
+
+
+.navbar{
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
@@ -30,7 +22,7 @@ header {
   font-variant: normal;
   font-weight: 500;
   line-height: 26.4px;
-  color: darkolivegreen;
+  color: var(--third-color);
 }
 
 button a {
@@ -43,72 +35,72 @@ button {
   box-sizing: border-box;
   padding: 8px 10px;
   border-radius: 10px;
-  background: darkgoldenrod;
+  background: var(--secondary-color);
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: bolder;
+  font-size: 20px;
   color: black;
 }
 
 button:hover {
-  color: darkolivegreen;
+  color:darkolivegreen;
 }
 
 img {
-  width: 40%;
+  max-width:120%;
+  height:min-content;
 }
 
 h1,
+h2,
 h3,
 h4,
 h5 {
   font-family: "Borel", cursive;
   color: darkgoldenrod;
+  padding: 25px;
+  margin:10px;
+
 }
 
-.portfolio {
-  display: flex;
-  flex-direction: space-evenly;
-  padding: 20px;
-  flex: 1;
+hr{
+  border: 1px dotted lightslategray;
 }
 
-.shecodes {
-  display: flex;
-  flex-direction: space-evenly;
-  padding: 20px;
-  flex: 1;
-  background: lightgrey;
-  border-color: darkolivegreen;
-  border-radius: 20px;
-}
 
-.skills {
-  display: flex;
-  flex-direction: space-between;
-  padding: 20px;
-  flex: 1;
-  background: lightgrey;
-  border-color: darkolivegreen;
-  border-radius: 20px;
-}
-
-p {
-  display:;
+p,
+label {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   color: darkolivegreen;
   text-align: left;
   font-size: 20px;
   font-style: normal;
-  font-variant: normal;
   font-weight: 500;
-  line-height: 26.4px;
 }
 
-.homepage {
+.homepage,
+.portfolio,
+.contact {
   display: flex;
   justify-content: center;
   text-align: center;
   padding: 100px;
   margin: 50px;
   flex: 1;
+}
+
+
+
+.launch-link {
+  border-radius: 3px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 15px;
+  margin: 10px auto;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+
+.launch-link:hover{
+  background:darkolivegreen;
 }
