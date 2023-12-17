@@ -35,6 +35,10 @@ body {
   color: var(--third-color);
 }
 
+a{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  color:var(--third-color);
+}
 button a {
   text-decoration: none;
 }
@@ -53,7 +57,7 @@ button {
 }
 
 button:hover {
-  color:darkolivegreen;
+  background:darkolivegreen;
 }
 
 img {
