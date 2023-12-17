@@ -1,4 +1,4 @@
-:root {
+:root{
   --primary-color: whitesmoke;
   --secondary-color: darkgoldenrod;
   --third-color: darkolivegreen;
@@ -8,6 +8,21 @@
 body {
   background: var(--primary-color);
   margin:0;
+}
+
+@media (min-width:576){
+  p{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align:center;
+    }
+}
+
+@media(min-width:1400px){
+  p{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-align:center;
+  font-weight: 900;
+}
 }
 
 
@@ -57,7 +72,7 @@ h3,
 h4,
 h5 {
   font-family: "Borel", cursive;
-  color: darkgoldenrod;
+  color:var(--secondary-color);
   padding: 25px;
   margin:10px;
 
