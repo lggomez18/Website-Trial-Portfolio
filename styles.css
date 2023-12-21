@@ -35,10 +35,18 @@ body {
   color: var(--third-color);
 }
 
+
+
 a{
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   color:var(--third-color);
 }
+
+a:hover{
+  color:whitesmoke;
+}
+
+
 button a {
   text-decoration: none;
 }
@@ -117,4 +125,9 @@ label {
 
 .launch-link:hover{
   background:darkolivegreen;
+}
+
+.container {
+  padding: 50px;
+
 }
