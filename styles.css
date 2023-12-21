@@ -11,15 +11,13 @@ body {
 }
 
 @media (min-width:576){
-  button{
-    color:yellow;
+  .container{
+    padding:40px;
   }
 }
 
 @media(min-width:1400px){
-  button{
-    color:red;
-  }
+ 
 }
 
 
@@ -135,5 +133,6 @@ label {
 
 .container {
   padding: 50px;
+  margin: auto;
 
 }
